@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
+
+    <link href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css">
     <link rel="stylesheet" href="Weather.css">
 </head>
 <body>
@@ -22,6 +25,27 @@
                 </button>
             </div>
         </div>
+        <div class="weather-data">
+            <div class="weather-left">
+                <div class="card">
+                    <div class="current-weather">
+                        <div class="details">
+                            <h2 id="city_name">City Name</h2>
+                            <p id="weather_desc">Weather Description</p>
+                            <h2 id="temp">Temperature: __&deg;C</h2>
+                            <h2 id="press">Pressure: __ Pa</h2>
+                            <h2 id="humid">Humidity: __%</h2>
+                            <h2 id="wind">Wind Speed: __ m/s</h2>
+                        </div>
+                        <div class="weather-icon">
+                            <img src="https://openweathermap.org/img/wn/04d@2x.png" alt="Weather Icon" id="weatherIcon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                  
+
      </div>
 </body>
 </html>

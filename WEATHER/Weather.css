@@ -1,6 +1,6 @@
 :root{
-    --bg-color1: #212529
-    --bg-color2: #2aab2d
+    --bg-color1: #212529;
+    --bg-color2: #2aab2d;
 }
 
 *{
@@ -26,6 +26,7 @@ body{
     align-items: center;
     margin-bottom: 10px;
     padding: 15px 0;
+    
     & #city_input{
         background-color: var(--bg-color1);
         border: none;
@@ -37,6 +38,7 @@ body{
             outline: none;
         }
     }
+    
     & #SearchBtn{
         border: none;
         font-size: 16px;
@@ -53,6 +55,19 @@ body{
         background-color: #ea6e4b;
         cursor: pointer;
     }
-
     
+}
+.card{
+    background-color: var(--bg-color2);
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    &p{
+        font-size: 14px;
+        margin-bottom: #999;
+    }
+    &h2{
+        font-size: 32px;
+        font-weight: 500;
+    }
 }
